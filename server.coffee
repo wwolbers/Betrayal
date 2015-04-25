@@ -5,7 +5,7 @@ Event = require 'event'
 {Voronoi} = require 'voronoi'
 {tr} = require 'i18n'
 
-allNames = "Winterfell Kingslanding Braavos Dorne Harrenhal CasterlyRock TheWall Dragonstone Volantis Meereen Qarth Asshai Pentos Highgarden Yunkai Lorath Riverrun Astapor Sunspear TheTwins Tarth Lys CrastersKeep Oldtown Qohor Pyke Nightfort Myr Tyrosh MinasTirith Isengard HelmsDeep Edoras Rivendell Shire Mordor Erebor Lorien Valmar Tirion Umbar Moria MinasIthil Mithlond Valerya Aldburg Archet Bree Bywater Calembel".split " "
+allNames = "Netherlands Belgium Germany France England Scotland Ireland Iceland Sweden Finland Norway Russia Estonia Latvia Poland Austria Croatia Italy Spain Portugal Serbia Romania Switzerland Monaco Greece Bulgaria Romania Hungary Bosnia Ukraine Turkey Denmark Moldova Andorra Czech Cyprus Georgia Syria Lebanon Israel Jordan Iraq Iran Armenia Luxembourg Malta Faroe Qatar Egypt Morocco".split " "
 
 rndf = (min,max) -> Math.random()*(max-min)+min
 rndi = (min,maxExcl) -> 0|Math.random()*(maxExcl-min)+min
